@@ -12,7 +12,7 @@
                 <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Sobre</p>
                 <div v-if="isAboutActive" class="absolute bg-white border rounded-md p-3 shadow-lg w-[10vw]">
                     <ul>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">História</li>
+                        <li @click="this.$router.push('/history')" class="p-2 hover:bg-sky-100 cursor-pointer">História</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Corpo Docente</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Sistemas</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">NTE</li>
@@ -44,8 +44,12 @@
                 <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Espaço do Estudante</p>
                 <div v-if="isStudentActive" class="absolute bg-white border rounded-md p-3 shadow-lg w-[10vw]">
                     <ul>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">SIGA</li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Biblioteca</li>
+                        <li class="p-2 hover:bg-sky-100 cursor-pointer">
+                          <a href="https://siga.ufpr.br/siga/selecionanivelacesso?comboAcesso=IXSEPX40001016111G0XSEPX49XSEPX6XSEPXXSEPX0XSEPX1">SIGA</a>
+                        </li>
+                        <li href="https://bibliotecas.ufpr.br/" class="p-2 hover:bg-sky-100 cursor-pointer">
+                          <a href="https://bibliotecas.ufpr.br/">Biblioteca</a>
+                        </li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Bolsas</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Formatura</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Serviços</li>
