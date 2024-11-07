@@ -13,8 +13,8 @@
                 <div v-if="isAboutActive" class="absolute bg-white border rounded-md p-3 shadow-lg w-[10vw]">
                     <ul>
                         <li @click="this.$router.push('/history')" class="p-2 hover:bg-sky-100 cursor-pointer">História</li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Corpo Docente</li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Sistemas</li>
+                        <li @click="this.$router.push('/docent-body')" class="p-2 hover:bg-sky-100 cursor-pointer">Corpo Docente</li>
+                        <li @click="this.$router.push('/systems')" class="p-2 hover:bg-sky-100 cursor-pointer">Sistemas</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">NTE</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Colegiados</li>
                     </ul>   
