@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import HistoryView from '../views/HistoryView.vue'
 import DocentBodyView from '../views/DocentBodyView.vue'
 import SystemsView from '../views/SystemsView.vue'
+import ColegiadoView from '../views/ColegiadoView.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: '/systems',
     name: 'systems',
     component: SystemsView
+  },
+  {
+    path: '/colegiado',
+    name: 'colegiado',
+    component: ColegiadoView
   },
 ]
 

@@ -16,7 +16,7 @@
                         <li @click="this.$router.push('/docent-body')" class="p-2 hover:bg-sky-100 cursor-pointer">Corpo Docente</li>
                         <li @click="this.$router.push('/systems')" class="p-2 hover:bg-sky-100 cursor-pointer">Sistemas</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">NTE</li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Colegiados</li>
+                        <li @click="this.$router.push('/colegiado')" class="p-2 hover:bg-sky-100 cursor-pointer">Colegiados</li>
                     </ul>   
                 </div>
             </div>
