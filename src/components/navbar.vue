@@ -50,7 +50,7 @@
                         <li href="https://bibliotecas.ufpr.br/" class="p-2 hover:bg-sky-100 cursor-pointer">
                           <a href="https://bibliotecas.ufpr.br/">Biblioteca</a>
                         </li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Bolsas</li>
+                        <li @click=" this.$router.push('/bolsas')" class="p-2 hover:bg-sky-100 cursor-pointer">Bolsas</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Formatura</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Serviços</li>
                     </ul>

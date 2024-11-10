@@ -4,6 +4,7 @@ import HistoryView from '../views/HistoryView.vue'
 import DocentBodyView from '../views/DocentBodyView.vue'
 import SystemsView from '../views/SystemsView.vue'
 import ColegiadoView from '../views/ColegiadoView.vue'
+import BolsasView from '../views/BolsasView.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/colegiado',
     name: 'colegiado',
     component: ColegiadoView
+  },
+  {
+    path: '/bolsas',
+    name: 'bolsas',
+    component: BolsasView
   },
 ]
 
