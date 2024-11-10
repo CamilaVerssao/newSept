@@ -156,17 +156,17 @@
         <div class="transform transition-transform duration-200 grid grid-cols-4 gap-5 h-[30vh]">
           <div class="cursor-pointer hover:shadow-lg flex flex-col border rounded rounded-2xl rouded rounded-2xl">
             <div class="h-[40%]">
-              <div class="rounded-t rounded-t-2xl text-white bg-[url('/src/assets/bear.jpg')] bg-cover bg-center h-full flex items-end">
+              <div class="rounded-t rounded-t-2xl text-white bg-[url('/src/assets/sept1.jpg')] bg-cover bg-center h-full flex items-end">
                 <div class="bg-sky-700 text-sm p-2 w-[70%]">
-                  <h1>4 de novembro de 2024</h1>
+                  <h1>10 de novembro de 2024</h1>
                 </div>
               </div>
             </div>
             <div class="h-[60%]">
               <div class="flex flex-col gap-5 justify-between h-full p-5">
-                <h1 class="font-[500] text-lg">Evento</h1>
+                <h1 class="font-[500] text-lg">Conheça o Sept</h1>
                 <div class="flex gap-3 text-sm items-center">
-                  <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Conheça o Sept</p>
+                  <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Calouros</p>
                   <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Futuros Alunos</p>
                   <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Coordenação</p>
                 </div>
@@ -175,7 +175,7 @@
           </div>
           <div class="cursor-pointer hover:shadow-lg flex flex-col border rounded rounded-2xl rouded rounded-2xl">
             <div class="h-[40%]">
-              <div class="rounded-t rounded-t-2xl text-white bg-[url('/src/assets/bear.jpg')] bg-cover bg-center h-full flex items-end">
+              <div class="rounded-t rounded-t-2xl text-white bg-[url('/src/assets/image10.jpg')] bg-cover bg-center h-full flex items-end">
                 <div class="bg-sky-700 text-sm p-2 w-[70%]">
                   <h1>4 de novembro de 2024</h1>
                 </div>
@@ -183,9 +183,9 @@
             </div>
             <div class="h-[60%]">
               <div class="flex flex-col gap-5 justify-between h-full p-5">
-                <h1 class="font-[500] text-lg">Evento</h1>
+                <h1 class="font-[500] text-lg">Clube do Livro</h1>
                 <div class="flex gap-3 text-sm items-center">
-                  <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Administração e gestão</p>
+                  <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Biblioteca</p>
                   <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Calendário universitário</p>
                 </div>
               </div>
@@ -193,33 +193,33 @@
           </div>
           <div class="cursor-pointer hover:shadow-lg flex flex-col border rounded rounded-2xl rouded rounded-2xl">
             <div class="h-[40%]">
-              <div class="rounded-t rounded-t-2xl text-white bg-[url('/src/assets/bear.jpg')] bg-cover bg-center h-full flex items-end">
+              <div class="rounded-t rounded-t-2xl text-white bg-[url('/src/assets/tads.jpg')] bg-cover bg-center h-full flex items-end">
                 <div class="bg-sky-700 text-sm p-2 w-[70%]">
-                  <h1>4 de novembro de 2024</h1>
+                  <h1>15 de outubro de 2024</h1>
                 </div>
               </div>
             </div>
             <div class="h-[60%]">
               <div class="flex flex-col gap-5 justify-between h-full p-5">
-                <h1 class="font-[500] text-lg">Evento</h1>
+                <h1 class="font-[500] text-lg">Semana Acadêmica de TADS</h1>
                 <div class="flex gap-3 text-sm items-center">
-                  <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Atividades de treinamento</p>
-                  <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Empreendedorismo</p>
+                  <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Sistema de Informação</p>
+                  <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Tecnologia</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="cursor-pointer hover:shadow-lg flex flex-col border rounded rounded-2xl rouded rounded-2xl">
             <div class="h-[40%]">
-              <div class="rounded-t rounded-t-2xl text-white bg-[url('/src/assets/bear.jpg')] bg-cover bg-center h-full flex items-end">
+              <div class="rounded-t rounded-t-2xl text-white bg-[url('/src/assets/image12.jpg')] bg-cover bg-center h-full flex items-end">
                 <div class="bg-sky-700 text-sm p-2 w-[70%]">
-                  <h1>4 de novembro de 2024</h1>
+                  <h1>27 de setembro de 2024</h1>
                 </div>
               </div>
             </div>
             <div class="h-[60%]">
               <div class="flex flex-col gap-5 justify-between h-full p-5">
-                <h1 class="font-[500] text-lg">Evento</h1>
+                <h1 class="font-[500] text-lg">Conferência de Inovação Tecnológica</h1>
                 <div class="flex gap-3 text-sm items-center">
                   <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Conferência</p>
                   <p class="rounded rounded-lg w-fit py-1 px-3 bg-gray-200">Seminário on-line</p>
