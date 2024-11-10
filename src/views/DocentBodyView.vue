@@ -38,7 +38,6 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
                 <div class="mb-12">
                     <div class="flex gap-5 mb-5">

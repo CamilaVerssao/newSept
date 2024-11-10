@@ -33,7 +33,7 @@
                                     <a class="text-sky-500 hover:text-sky-700" href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/04/SEI_UFPR-6561036-Portaria-18-Colegiado-TCI.pdf">18/2024 em 04/04/2024</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white">
+                            <tr class="bg-white border-b">
                                 <th scope="row" class="py-4 font-medium text-gray-900 whitespace-nowrap">
                                     Curso Superior de Tecnologia em Gestão Pública (TGP)
                                 </th>
@@ -41,7 +41,7 @@
                                     <a class="text-sky-500 hover:text-sky-700" href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/04/SEI_UFPR-6561044-Portaria-19-Colegiado-TGP.pdf">19/2024 em 04/04/2024</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white">
+                            <tr class="bg-white border-b">
                                 <th scope="row" class="py-4 font-medium text-gray-900 whitespace-nowrap">
                                     Curso Superior de Tecnologia em Gestão da Qualidade (TGQ)
                                 </th>
@@ -49,7 +49,7 @@
                                     <a class="text-sky-500 hover:text-sky-700" href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/04/SEI_UFPR-6561058-Portaria-20-Colegiado-TGQ.pdf">20/2024 em 04/04/2024</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white">
+                            <tr class="bg-white border-b">
                                 <th scope="row" class="py-4 font-medium text-gray-900 whitespace-nowrap">
                                     Curso Superior de Tecnologia em Luteria (TL)	
                                 </th>
@@ -57,7 +57,7 @@
                                     <a class="text-sky-500 hover:text-sky-700" href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/09/colegiado-TL60.pdf">60/2024 em 19/08/2024</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white">
+                            <tr class="bg-white border-b">
                                 <th scope="row" class="py-4 font-medium text-gray-900 whitespace-nowrap">
                                     Curso Superior de Tecnologia em Negócios Imobiliários (TNI)		
                                 </th>
@@ -65,7 +65,7 @@
                                     <a class="text-sky-500 hover:text-sky-700" href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/04/SEI_UFPR-6561103-Portaria-22-Colegiado-TNI.pdf">22/2024 em 04/04/2024</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white">
+                            <tr class="bg-white border-b">
                                 <th scope="row" class="py-4 font-medium text-gray-900 whitespace-nowrap">
                                     Curso Superior de Tecnologia em Secretariado (TS)			
                                 </th>
@@ -73,7 +73,7 @@
                                     <a class="text-sky-500 hover:text-sky-700" href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/09/colegiado-TS61.pdf">61/2024 em 19/08/2024</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white">
+                            <tr class="bg-white border-b">
                                 <th scope="row" class="py-4 font-medium text-gray-900 whitespace-nowrap">
                                     Curso Superior de Tecnologia em Produção Cênica (TPC)				
                                 </th>
@@ -81,7 +81,7 @@
                                     <a class="text-sky-500 hover:text-sky-700" href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/04/SEI_UFPR-6561148-Portaria-25-Colegiado-TPC.pdf">25/2024 em 04/04/2024</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white">
+                            <tr class="bg-white border-b">
                                 <th scope="row" class="py-4 font-medium text-gray-900 whitespace-nowrap">
                                     Curso Técnico Petróleo e Gás integrado ao Ensino Médio (TPG)				
                                 </th>
@@ -89,7 +89,7 @@
                                     <a class="text-sky-500 hover:text-sky-700" href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/04/SEI_UFPR-6561121-Portaria-23-Colegiado-TPG.pdf">23/2024 em 04/04/2024</a>
                                 </td>
                             </tr>
-                            <tr class="bg-white">
+                            <tr class="bg-white border-b">
                                 <th scope="row" class="py-4 font-medium text-gray-900 whitespace-nowrap">
                                     Curso Técnico em Agente Comunitário de Saúde (TACS)					
                                 </th>

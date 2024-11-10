@@ -6,7 +6,7 @@
     </div> 
     <div class="flex justify-between px-5 bg-white shadow-lg">
       <div class="flex items-center">
-        <img src="@/assets/logo.jpg" alt="logoSept" class="h-[10vh] cursor-pointer">
+        <img @click="this.$router.push('/')" src="@/assets/logo.jpg" alt="logoSept" class="h-[10vh] cursor-pointer">
         <div class="ml-12 flex gap-5">
             <div class="relative" @mouseover="this.isAboutActive = true" @mouseleave="this.isAboutActive = false">
                 <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Sobre</p>
@@ -39,25 +39,39 @@
                     </ul>   
                 </div>
             </div>
-
             <div class="relative" @mouseover="this.isStudentActive = true" @mouseleave="this.isStudentActive = false">
-                <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Espaço do Estudante</p>
-                <div v-if="isStudentActive" class="absolute bg-white border rounded-md p-3 shadow-lg w-[10vw]">
-                    <ul>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">
-                          <a href="https://siga.ufpr.br/siga/selecionanivelacesso?comboAcesso=IXSEPX40001016111G0XSEPX49XSEPX6XSEPXXSEPX0XSEPX1">SIGA</a>
-                        </li>
-                        <li href="https://bibliotecas.ufpr.br/" class="p-2 hover:bg-sky-100 cursor-pointer">
-                          <a href="https://bibliotecas.ufpr.br/">Biblioteca</a>
-                        </li>
-                        <li @click=" this.$router.push('/bolsas')" class="p-2 hover:bg-sky-100 cursor-pointer">Bolsas</li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Formatura</li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Serviços</li>
-                    </ul>
-                </div>
+              <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Espaço do Estudante</p>
+              <div v-if="isStudentActive" class="absolute bg-white border rounded-md p-3 shadow-lg w-[10vw]">
+                <ul>
+                    <li class="p-2 hover:bg-sky-100 cursor-pointer">
+                        <a href="https://siga.ufpr.br/siga/selecionanivelacesso?comboAcesso=IXSEPX40001016111G0XSEPX49XSEPX6XSEPXXSEPX0XSEPX1">SIGA</a>
+                    </li>
+                    <li class="p-2 hover:bg-sky-100 cursor-pointer">
+                        <a href="https://bibliotecas.ufpr.br/">Biblioteca</a>
+                    </li>
+                    <li @click="this.$router.push('/bolsas')" class="p-2 hover:bg-sky-100 cursor-pointer">Bolsas</li>
+                    <li 
+                        @mouseover="this.isGraduationActive = true" 
+                        @mouseleave="this.isGraduationActive = false"
+                        class="p-2 hover:bg-sky-100 cursor-pointer relative"
+                    >
+                        Formatura
+                        <div v-if="this.isGraduationActive" @mouseover="this.isGraduationActive ? this.isGraduationActive = true : this.isGraduationActive = false" class="bg-white border rounded-md shadow-lg">
+                            <ul>
+                                <li class="p-2 hover:bg-sky-100 cursor-pointer">
+                                    <a href="http://www.prograd.ufpr.br/portal/diplomas/">Diplomas</a>
+                                </li>
+                                <li class="p-2 hover:bg-sky-100 cursor-pointer">
+                                    <a href="http://www.sept.ufpr.br/portal/estudantes/wp-content/uploads/sites/16/2020/02/25manual_colacao_grau.pdf">Manual de Colação de Grau</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="p-2 hover:bg-sky-100 cursor-pointer">Serviços</li>
+                </ul>
+              </div>
             </div>
-          
-            <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Pesquisa e Extensão</p>
+            <p @click="this.$router.push('/pesquisa-extensao')" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Pesquisa e Extensão</p>
             <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Concursos e Testes</p>
             <div class="relative" @mouseover="this.isInfoActive = true" @mouseleave="this.isInfoActive = false">
                 <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Acesso a Informação</p>
@@ -82,8 +96,8 @@
                 <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Contato</p>
                  <div v-if="isContactActive" class="absolute bg-white border rounded-md p-3 shadow-lg w-[10vw]">
                     <ul>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Telefones</li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Mapa</li>
+                        <li @click="this.$router.push('/contact')" class="p-2 hover:bg-sky-100 cursor-pointer">Telefones</li>
+                        <li @click="this.$router.push('/map')" class="p-2 hover:bg-sky-100 cursor-pointer">Mapa</li>
                     </ul>
                 </div>
             </div>
@@ -131,6 +145,7 @@ export default {
         { id: 'ESP', isActive: false },
         { id: 'JPN', isActive: false }
       ],
+      isGraduationActive: false,
       languageActive: false,
       selectedLanguage: 'PT',
       isCourseActive: false,

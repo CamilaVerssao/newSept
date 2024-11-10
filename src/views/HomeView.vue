@@ -22,18 +22,18 @@
         </div>
       </div>
       <div class="h-[15%] bg-sky-700 text-white grid grid-cols-3">
-        <div class="px-5 cursor-pointer flex gap-3 hover:bg-sky-800 items-center">
+        <a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/10/Grade-2024-2-Cursos-vs.3.6-24OUT.pdf" class="px-5 cursor-pointer flex gap-3 hover:bg-sky-800 items-center">
           <h1 class="font-[600]">2024-2 | </h1>
           <p>Grade Horária por Cursos</p>
-        </div>
-        <div class="px-5 cursor-pointer flex gap-3 hover:bg-sky-800 items-center">
+        </a>
+        <a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/10/Grade-2024-2-Salas-vs.3.6-24OUT.pdf" class="px-5 cursor-pointer flex gap-3 hover:bg-sky-800 items-center">
           <h1 class="font-[600]">2024-2 | </h1>
           <p>Grade Horária por Salas</p>
-        </div>
-        <div class="px-5 cursor-pointer flex gap-3 hover:bg-sky-800 items-center">
+        </a>
+        <a href="http://www.sept.ufpr.br/portal/wp-content/uploads/2024/10/Grade-2024-2-Docentes-vs.3.6-24OUT.pdf" class="px-5 cursor-pointer flex gap-3 hover:bg-sky-800 items-center">
           <h1 class="font-[600]">2024-2 | </h1>
           <p>Grade Horária por Docentes</p>
-        </div>
+        </a>
       </div>
     </div>
 
@@ -45,9 +45,11 @@
         <div class="rounded rounded-2xl grid grid-col bg-white bg-opacity-90 h-[30vh] p-12 mx-12 justify-between">
           <h1 class="text-3xl font-[500]">Reserva de salas</h1>
           <p>Tenha acesso ao controle de reserva de salas de aula</p>
-          <button class="rounded rounded-3xl w-full p-3 h-[50px] bg-blue-500 text-white hover:bg-blue-600 transition hover:duration-300 hover:ease-in-out">
-            Reservar sala
-          </button>
+          <a href="http://200.236.3.198:28080/salasept/">
+            <button class="rounded rounded-3xl w-full p-3 h-[50px] bg-blue-500 text-white hover:bg-blue-600 transition hover:duration-300 hover:ease-in-out">
+              Reservar sala
+            </button>
+          </a>
         </div>
       </div>
     </div>
