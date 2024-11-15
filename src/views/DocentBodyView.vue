@@ -26,13 +26,13 @@
                         >
                             <ul>
                                 <a href="https://drive.google.com/drive/folders/1ObE_v5gUXCn0_a2aKXrUUJ5hYyeTIF8d">
-                                    <li class="text-sky-700 font-bold p-1 mb-2 hover:bg-gray-100 cursor-pointer border-b">2024</li>
+                                    <li class="text-sky-700 font-bold p-1 mb-2 hover:bg-gray-100 cursor-pointehover:text-gray-700 border-b">2024</li>
                                 </a>
                                 <a href="https://drive.google.com/drive/folders/1ObE_v5gUXCn0_a2aKXrUUJ5hYyeTIF8d">
-                                    <li class="text-sky-700 font-bold p-1 mb-2 hover:bg-gray-100 cursor-pointer border-b">2023</li>
+                                    <li class="text-sky-700 font-bold p-1 mb-2 hover:bg-gray-100 cursor-pointer hover:text-gray-700 border-b">2023</li>
                                 </a>
                                 <a href="https://drive.google.com/drive/folders/1ObE_v5gUXCn0_a2aKXrUUJ5hYyeTIF8d">
-                                    <li class="text-sky-700 font-bold p-1 hover:bg-gray-100 cursor-pointer">2022</li>
+                                    <li class="text-sky-700 font-bold p-1 hover:bg-gray-100 cursor-pointer hover:text-gray-700">2022</li>
                                 </a>
                                
                             </ul>
@@ -67,7 +67,7 @@
                                         adrianabrahim@ufpr.br
                                     </td>
                                     <td class="py-4 text-center">
-                                        <a class="cursor-pointer" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4707281Y3"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
+                                        <a class="cursor-pointer hover:text-gray-700" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4707281Y3"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
                                     </td>
                                 </tr>
                                 <tr class="bg-white border-b">
@@ -78,7 +78,7 @@
                                         adrianomoraes@ufpr.br
                                     </td>
                                     <td class="py-4 text-center">
-                                        <a class="cursor-pointer" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4767908E6"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
+                                        <a class="cursor-pointer hover:text-gray-700" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4767908E6"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
                                     </td>
                                 </tr>
                                 <tr class="bg-white">
@@ -89,7 +89,7 @@
                                         brawerman@ufpr.br
                                     </td>
                                     <td class="py-4 text-center">
-                                        <a class="cursor-pointer" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4709311D5"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
+                                        <a class="cursor-pointer hover:text-gray-700" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4709311D5"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -138,7 +138,7 @@
                                         jose.junior943@ufpr.br
                                     </td>
                                     <td class="py-4 text-center">
-                                        <a class="cursor-pointer" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K8238818Y0"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
+                                        <a class="cursor-pointer hover:text-gray-700" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K8238818Y0"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
                                     </td>
                                     <td class="py-4 text-center">
                                         23075.038836/2024-94
@@ -152,7 +152,7 @@
                                         glendagondim@ufpr.br
                                     </td>
                                     <td class="py-4 text-center">
-                                        <a class="cursor-pointer" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4767908E6"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
+                                        <a class="cursor-pointer hover:text-gray-700" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4767908E6"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
                                     </td>
                                     <td class="py-4 text-center">
                                         23075.011539/2023-11                                    
@@ -201,7 +201,7 @@
                                         iso@ufpr.br
                                     </td>
                                     <td class="py-4 text-center">
-                                        <a class="cursor-pointer" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4707281Y3"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
+                                        <a class="cursor-pointer hover:text-gray-700" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4707281Y3"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
                                     </td>
                                 </tr>
                                 <tr class="bg-white border-b">
@@ -212,7 +212,7 @@
                                         carlos.guedes@ufpr.br
                                     </td>
                                     <td class="py-4 text-center">
-                                        <a class="cursor-pointer" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4767908E6"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
+                                        <a class="cursor-pointer hover:text-gray-700" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4767908E6"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
                                     </td>
                                 </tr>
                                 <tr class="bg-white">
@@ -223,7 +223,7 @@
                                         deborahrebello@ufpr.br
                                     </td>
                                     <td class="py-4 text-center">
-                                        <a class="cursor-pointer" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4709311D5"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
+                                        <a class="cursor-pointer hover:text-gray-700" href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4709311D5"><font-awesome-icon :icon="['fas', 'graduation-cap']" /></a>
                                     </td>
                                 </tr>
                             </tbody>

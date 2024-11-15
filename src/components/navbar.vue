@@ -15,7 +15,7 @@
                         <li @click="this.$router.push('/history')" class="p-2 hover:bg-sky-100 cursor-pointer">História</li>
                         <li @click="this.$router.push('/docent-body')" class="p-2 hover:bg-sky-100 cursor-pointer">Corpo Docente</li>
                         <li @click="this.$router.push('/systems')" class="p-2 hover:bg-sky-100 cursor-pointer">Sistemas</li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">NTE</li>
+                        <li @click="this.$router.push('/nte')" class="p-2 hover:bg-sky-100 cursor-pointer">NTE</li>
                         <li @click="this.$router.push('/colegiado')" class="p-2 hover:bg-sky-100 cursor-pointer">Colegiados</li>
                     </ul>   
                 </div>
@@ -77,8 +77,10 @@
                 <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Acesso a Informação</p>
                 <div v-if="isInfoActive" class="absolute bg-white border rounded-md p-3 shadow-lg w-[10vw]">
                     <ul>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Agenda</li>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Conselho Setorial</li>
+                        <li class="p-2 hover:bg-sky-100 cursor-pointer">
+                          <a href="http://200.236.3.198:28080/calendariosetorial/Home">Agenda</a>
+                        </li>
+                        <li @click="this.$router.push('/conselho-setorial')" class="p-2 hover:bg-sky-100 cursor-pointer">Conselho Setorial</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Financeiro</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Resoluções</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Editais</li>

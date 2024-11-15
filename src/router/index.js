@@ -8,6 +8,8 @@ import BolsasView from '../views/BolsasView.vue'
 import pesquisaExtensaoView from '../views/PesquisaExtensaoView.vue'
 import mapView from '../views/MapView.vue'
 import contactView from '../views/ContactView.vue'
+import nteView from '../views/NteView.vue'
+import conselhoSetorialView from '../views/ConselhoSetorialView.vue'
 
 const routes = [
   {
@@ -54,6 +56,16 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: contactView
+  },
+  {
+    path: '/nte',
+    name: 'net',
+    component: nteView
+  },
+  {
+    path: '/conselho-setorial',
+    name: 'conselhoSetorial',
+    component: conselhoSetorialView
   },
 ]
 

@@ -1,5 +1,6 @@
 <template>
     <div>
+        <Loader :isLoading="isLoading" />
         <Navbar class="sticky top-0 z-10" />
         <div class="flex justify-center">
             <div class="w-[70vw]">
@@ -15,12 +16,23 @@
 <script>
 import Navbar from '@/components/navbar.vue'
 import Footer from '@/components/footer.vue'
+import Loader from '@/components/loader.vue'
 
 export default {
     name: 'MapView',
     components: {
         Navbar,
-        Footer
+        Footer,
+        Loader
+    },
+    data: () => ({
+        isLoading: true
+    }),
+    mounted() {
+        setTimeout(() => {
+            this.isLoading = false
+            console.log(this.isLoading)
+        }, 700)
     }
 }
 </script>
