@@ -3,7 +3,7 @@
         <Navbar class="sticky top-0 z-10" />
         <div class="flex justify-center">
             <div class="w-[70vw]">
-                <div class="mb-12">
+                <div class="mb-12 mt-8">
                     <div class="flex gap-3 text-5xl mb-5">
                         <h1 class="font-bold text-sky-700 ">Sept</h1>
                         <p class="font-[400]">pesquisa</p>
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="mb-12">
                     <div class="flex gap-3 text-5xl mb-5">
                         <h1 class="font-bold text-sky-700 ">Sept</h1>
                         <p class="font-[400]">extensão</p>
