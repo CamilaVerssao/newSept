@@ -24,7 +24,7 @@
                 <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Cursos</p>
                 <div v-if="isCourseActive" class="absolute bg-white border rounded-md p-3 shadow-lg w-[10vw]">
                     <ul>
-                        <li class="p-2 hover:bg-sky-100 cursor-pointer">Análise e Desenvolvimento de Sistemas</li>
+                        <li @click="this.$router.push('/tads')" class="p-2 hover:bg-sky-100 cursor-pointer">Análise e Desenvolvimento de Sistemas</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Petróleo e Gás</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Produção Cênica</li>
                         <li class="p-2 hover:bg-sky-100 cursor-pointer">Secretariado</li>

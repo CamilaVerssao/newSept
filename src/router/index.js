@@ -1,17 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import HistoryView from '../views/HistoryView.vue'
-import DocentBodyView from '../views/DocentBodyView.vue'
-import SystemsView from '../views/SystemsView.vue'
-import ColegiadoView from '../views/ColegiadoView.vue'
-import BolsasView from '../views/BolsasView.vue'
-import pesquisaExtensaoView from '../views/PesquisaExtensaoView.vue'
-import mapView from '../views/MapView.vue'
-import contactView from '../views/ContactView.vue'
-import nteView from '../views/NteView.vue'
-import conselhoSetorialView from '../views/ConselhoSetorialView.vue'
+
+// sept
+import HomeView from '../views/sept/HomeView.vue'
+import HistoryView from '../views/sept/HistoryView.vue'
+import DocentBodyView from '../views/sept/DocentBodyView.vue'
+import SystemsView from '../views/sept/SystemsView.vue'
+import ColegiadoView from '../views/sept/ColegiadoView.vue'
+import BolsasView from '../views/sept/BolsasView.vue'
+import pesquisaExtensaoView from '../views/sept/PesquisaExtensaoView.vue'
+import mapView from '../views/sept/MapView.vue'
+import contactView from '../views/sept/ContactView.vue'
+import nteView from '../views/sept/NteView.vue'
+import conselhoSetorialView from '../views/sept/ConselhoSetorialView.vue'
+
+// tads
+import aboutTadsView from '../views/tads/AboutTadsView.vue'
+import tadsView from '../views/tads/TadsView.vue'
+import tadsCoordenacao from '../views/tads/TadsCoordenacaoView.vue'
 
 const routes = [
+  // sept
   {
     path: '/',
     name: 'home',
@@ -66,6 +74,23 @@ const routes = [
     path: '/conselho-setorial',
     name: 'conselhoSetorial',
     component: conselhoSetorialView
+  },
+
+  // tads
+  {
+    path: '/about-tads',
+    name: 'aboutTads',
+    component: aboutTadsView
+  },
+  {
+    path: '/tads',
+    name: 'tads',
+    component: tadsView
+  },
+  {
+    path: '/tads-coordenacao',
+    name: 'tadsCoordenacao',
+    component: tadsCoordenacao
   },
 ]
 

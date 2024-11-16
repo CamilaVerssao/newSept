@@ -138,7 +138,7 @@
           </div>
         </div>
         <div class="flex justify-center">
-          <button class="mb-5 rounded rounded-xl border p-3 h-[50px] w-[23vw] hover:bg-blue-500 hover:text-white transition hover:border-0 hover:duration-300 hover:ease-in-out">
+          <button class="mb-5 rounded rounded-xl border p-3 h-[50px] w-[23vw] hover:bg-sky-700 hover:text-white transition hover:border-0 hover:duration-300 hover:ease-in-out">
             Todas as notícias
           </button>
         </div>
