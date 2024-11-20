@@ -95,15 +95,18 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="flex justify-end gap-1 mb-12">
-                        <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[2%]">
-                            <font-awesome-icon :icon="['fas', 'chevron-left']" class="text-gray-500" />
-                        </div>
-                        <div class="bg-sky-700 text-white cursor-pointer p-1 text-center border border-sky-700 rounded rounded-md w-[2%]">
-                            <p>1</p>
-                        </div>
-                        <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[2%]">
-                            <font-awesome-icon :icon="['fas', 'chevron-right']" class="text-gray-500" />
+                    <div class="flex justify-between mb-12">
+                        <p class="text-gray-600">3 itens de 3</p>
+                        <div class="flex gap-1">
+                            <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
+                                <font-awesome-icon :icon="['fas', 'chevron-left']" class="text-gray-500" />
+                            </div>
+                            <div class="bg-sky-700 text-white cursor-pointer p-1 text-center border border-sky-700 rounded rounded-md w-[30px]">
+                                <p>1</p>
+                            </div>
+                            <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
+                                <font-awesome-icon :icon="['fas', 'chevron-right']" class="text-gray-500" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -161,15 +164,18 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="flex justify-end gap-1 mb-12">
-                        <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[2%]">
-                            <font-awesome-icon :icon="['fas', 'chevron-left']" class="text-gray-500" />
-                        </div>
-                        <div class="bg-sky-700 text-white cursor-pointer p-1 text-center border border-sky-700 rounded rounded-md w-[2%]">
-                            <p>1</p>
-                        </div>
-                        <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[2%]">
-                            <font-awesome-icon :icon="['fas', 'chevron-right']" class="text-gray-500" />
+                    <div class="flex justify-between mb-12">
+                        <p class="text-gray-600">2 itens de 2</p>
+                        <div class="flex gap-1">
+                            <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
+                                <font-awesome-icon :icon="['fas', 'chevron-left']" class="text-gray-500" />
+                            </div>
+                            <div class="bg-sky-700 text-white cursor-pointer p-1 text-center border border-sky-700 rounded rounded-md w-[30px]">
+                                <p>1</p>
+                            </div>
+                            <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
+                                <font-awesome-icon :icon="['fas', 'chevron-right']" class="text-gray-500" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -229,19 +235,21 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="flex justify-end gap-1 mb-12">
-                        <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[2%]">
-                            <font-awesome-icon :icon="['fas', 'chevron-left']" class="text-gray-500" />
-                        </div>
-                        <div class="bg-sky-700 text-white cursor-pointer p-1 text-center border border-sky-700 rounded rounded-md w-[2%]">
-                            <p>1</p>
-                        </div>
-                        <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[2%]">
-                            <font-awesome-icon :icon="['fas', 'chevron-right']" class="text-gray-500" />
+                   <div class="flex justify-between mb-12">
+                        <p class="text-gray-600">3 itens de 3</p>
+                        <div class="flex gap-1">
+                            <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
+                                <font-awesome-icon :icon="['fas', 'chevron-left']" class="text-gray-500" />
+                            </div>
+                            <div class="bg-sky-700 text-white cursor-pointer p-1 text-center border border-sky-700 rounded rounded-md w-[30px]">
+                                <p>1</p>
+                            </div>
+                            <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
+                                <font-awesome-icon :icon="['fas', 'chevron-right']" class="text-gray-500" />
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
         <Footer />

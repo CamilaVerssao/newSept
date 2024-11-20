@@ -17,6 +17,7 @@ import conselhoSetorialView from '../views/sept/ConselhoSetorialView.vue'
 import aboutTadsView from '../views/tads/AboutTadsView.vue'
 import tadsView from '../views/tads/TadsView.vue'
 import tadsCoordenacao from '../views/tads/TadsCoordenacaoView.vue'
+import tadsCorpoDocente from '../views/tads/TadsCorpoDocenteView.vue'
 
 const routes = [
   // sept
@@ -91,6 +92,11 @@ const routes = [
     path: '/tads-coordenacao',
     name: 'tadsCoordenacao',
     component: tadsCoordenacao
+  },
+  {
+    path: '/tads-corpo-docente',
+    name: 'tadsCorpoDocente',
+    component: tadsCorpoDocente
   },
 ]
 
