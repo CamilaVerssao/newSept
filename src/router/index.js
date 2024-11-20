@@ -18,6 +18,7 @@ import aboutTadsView from '../views/tads/AboutTadsView.vue'
 import tadsView from '../views/tads/TadsView.vue'
 import tadsCoordenacao from '../views/tads/TadsCoordenacaoView.vue'
 import tadsCorpoDocente from '../views/tads/TadsCorpoDocenteView.vue'
+import tadsDocuments from '../views/tads/TadsDocumentsView.vue'
 
 const routes = [
   // sept
@@ -97,6 +98,11 @@ const routes = [
     path: '/tads-corpo-docente',
     name: 'tadsCorpoDocente',
     component: tadsCorpoDocente
+  },
+  {
+    path: '/tads-documentos',
+    name: 'tadsDocuments',
+    component: tadsDocuments
   },
 ]
 

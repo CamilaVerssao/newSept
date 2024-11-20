@@ -17,7 +17,7 @@
           </button>
         </div>
         <div class="flex gap-5">
-          <div class="w-full md:w-1/2 bg-white p-5">
+          <div class="cursor-pointer w-full md:w-1/2 bg-white p-5">
             <h2 class="font-bold text-lg mb-3">Informações sobre o Curso</h2>
             <img src="@/assets/image5.jpg" alt="tads" class="mb-4 rounded-lg">
             <p class="mb-3">
@@ -62,7 +62,7 @@
 
 
             <div v-for="(aviso, index) in avisos" :key="index"
-              class="bg-white p-4 mb-4 rounded-md border border-gray-300">
+              class="cursor-pointer bg-white p-4 mb-4 rounded-md border border-gray-300">
               <div class="flex items-center mb-3">
                 <font-awesome-icon class="text-gray-500 text-3xl mr-4" :icon="['fas', 'user-circle']" />
                 <div>
@@ -83,12 +83,11 @@
               </div>
 
               <div class="text-sky-700 cursor-pointer hover:text-sky-900 text-right mt-3">
-                <a href="#" class="block mb-2">Link direto</a>
                 <a href="#" class="block mb-2">Discutir este tópico</a>
               </div>
             </div>
-            <div class="text-right"><a href="#" class="text-sky-700 hover:text-sky-900">
-                Veja todos os avisos</a>
+            <div class="flex justify-end">
+              <button class="rounded rounded-xl py-2 px-5 bg-sky-700 hover:bg-sky-900 text-white">Ver mais</button>
             </div>
           </div>
         </div>

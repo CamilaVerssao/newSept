@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Navbar class="sticky top-0 z-10 mb-5" />
+        <TadsNavbar class="sticky top-0 z-10 mb-5" />
         <div class="flex justify-center">
             <div class="w-[70vw]">
                 <h1 class="text-5xl mb-5 font-bold text-sky-700 ">Corpo docente</h1>
@@ -264,14 +264,14 @@
                 <div class="flex justify-between mb-12">
                     <p class="text-gray-600">10 itens de 30</p>
                     <div class="flex gap-1">
-                        <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
-                            <font-awesome-icon :icon="['fas', 'chevron-left']" class="text-gray-500" />
+                        <div class="group hover:border-sky-700 cursor-pointer p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
+                            <font-awesome-icon :icon="['fas', 'chevron-left']" class="text-gray-500 group-hover:text-sky-700" />
                         </div>
                         <div class="bg-sky-700 text-white cursor-pointer p-1 text-center border border-sky-700 rounded rounded-md w-[30px]">
                             <p>1</p>
                         </div>
-                        <div class="bg-gray-100 p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
-                            <font-awesome-icon :icon="['fas', 'chevron-right']" class="text-gray-500" />
+                        <div class="group hover:border-sky-700 cursor-pointer p-1 text-center border border-gray-400 rounded rounded-md w-[30px]">
+                            <font-awesome-icon :icon="['fas', 'chevron-right']" class="text-gray-500 group-hover:text-sky-700" />
                         </div>
                     </div>
                 </div>
@@ -283,12 +283,12 @@
 
 
 <script>
-import Navbar from '@/components/navbar.vue'
+import TadsNavbar from '@/components/tadsNavbar.vue'
 import Footer from '@/components/footer.vue'
 
 export default {
     components: {
-        Navbar,
+        TadsNavbar,
         Footer
     },
 }
