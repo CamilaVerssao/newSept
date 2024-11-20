@@ -20,6 +20,8 @@ import tadsCoordenacao from '../views/tads/TadsCoordenacaoView.vue'
 import tadsCorpoDocente from '../views/tads/TadsCorpoDocenteView.vue'
 import tadsDocuments from '../views/tads/TadsDocumentsView.vue'
 import tadsEstagio from '../views/tads/TadsEstagioView.vue'
+import tadsOrientacao from '../views/tads/TadsOrientacaoView.vue'
+import icBolsistaNew from '../views/tads/IcBolsistaNewView.vue'
 
 const routes = [
   // sept
@@ -109,6 +111,16 @@ const routes = [
     path: '/coe',
     name: 'tadsEstagio',
     component: tadsEstagio
+  },
+  {
+    path: '/coa',
+    name: 'tadsOrientacao',
+    component: tadsOrientacao
+  },
+  {
+    path: '/ic-bolsista-new',
+    name: 'icBolsistaNew',
+    component: icBolsistaNew
   },
 ]
 

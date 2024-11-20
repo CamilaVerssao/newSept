@@ -61,8 +61,8 @@
             <h2 class="font-bold text-lg mb-3">Avisos</h2>
 
 
-            <div v-for="(aviso, index) in avisos" :key="index"
-              class="cursor-pointer bg-white p-4 mb-4 rounded-md border border-gray-300">
+            <div @click="aviso.route ? this.$router.push(aviso.route) : ''" v-for="(aviso, index) in avisos" :key="index"
+              class="cursor-pointer bg-white p-4 mb-4 rounded-md border border-gray-300 transform hover:shadow-md">
               <div class="flex items-center mb-3">
                 <font-awesome-icon class="text-gray-500 text-3xl mr-4" :icon="['fas', 'user-circle']" />
                 <div>
@@ -121,6 +121,7 @@ export default {
     return {
       avisos: [
         {
+          route: '/ic-bolsista-new',
           titulo: 'Edital de bolsista para IC',
           autor: 'Alessandro Brawerman',
           data: 'quinta, 5 set 2024, 15:22',
