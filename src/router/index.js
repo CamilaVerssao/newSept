@@ -22,6 +22,7 @@ import tadsDocuments from '../views/tads/TadsDocumentsView.vue'
 import tadsEstagio from '../views/tads/TadsEstagioView.vue'
 import tadsOrientacao from '../views/tads/TadsOrientacaoView.vue'
 import icBolsistaNew from '../views/tads/IcBolsistaNewView.vue'
+import tadsFormativas from '../views/tads/TadsFormativasView.vue'
 
 const routes = [
   // sept
@@ -121,6 +122,11 @@ const routes = [
     path: '/ic-bolsista-new',
     name: 'icBolsistaNew',
     component: icBolsistaNew
+  },
+  {
+    path: '/caf',
+    name: 'tadsFormativas',
+    component: tadsFormativas
   },
 ]
 

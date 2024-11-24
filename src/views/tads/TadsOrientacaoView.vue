@@ -9,13 +9,13 @@
               <p>Ver mais informações</p>
             </a>
           </div>
-          <p class="text-jusitfy mb-3">
+          <p class="mb-3">
             O <b>Programa de Orientação Acadêmica</b> oferece suporte aos estudantes
             do curso de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS),
             ajudando a superar dificuldades acadêmicas, evitar retenção ou evasão,
             e garantir o progresso no curso.
           </p>
-          <hr class="mb-">
+          <hr class="mb-3">
           <h1 class="font-bold text-xl text-sky-700 mb-3">Como funciona?</h1>
           <ul class="list-disc mb-3 mx-5">
             <li>Atendimentos Individuais: Realizados pela Comissão de Orientação Acadêmica (COA), por agendamento, via Microsoft Teams.</li>
