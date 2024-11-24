@@ -10,7 +10,6 @@
         <div class="ml-12 flex gap-5">
             <p @click="this.$router.push('/about-tads')" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Sobre</p>
             <p @click="this.$router.push('/tads-documentos')" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Documentos</p>
-            <p class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Pesquisa e Extensão</p>
             <a href="http://200.236.3.198:28080/secretariaonline/Home" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Secretaria Online</a>
             <p @click="this.$router.push('/tads-coordenacao')" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Coordenação</p>
             <p @click="this.$router.push('/tads-corpo-docente')" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Corpo Docente</p>
@@ -19,7 +18,7 @@
             <p @click="this.$router.push('/caf')" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">CAF (Ativ. formativas)</p>
             <p @click="this.$router.push('/tcc')" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">TCC</p>
             <a href="https://pt-br.facebook.com/ufprcatei/" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">CATEI</a>
-            <p @click="this.$router.push('/')" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">Sept</p>
+            <p @click="this.$router.push('/')" class="cursor-pointer font-[500] hover:text-sky-700 hover:transition duration-300 ease-in-out">SEPT</p>
         </div>
       </div>
       

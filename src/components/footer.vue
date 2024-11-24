@@ -74,7 +74,7 @@
                 <div class="text-sm">
                     <p>Rua Dr. Alcides Vieira Arcoverde, 1225</p>
                     <p>CEP: 81520-260 - Jardim das Américas - Curitiba (PR) - Brasil</p>
-                    <p>Telefone: <a class="font-bold" href="">acesse aqui</a></p>
+                    <p>Telefone: <span class="font-bold cursor-pointer" @click="this.$router.push('/contact')">acesse aqui</span></p>
                 </div>
             </div>
             <div class="flex gap-3">

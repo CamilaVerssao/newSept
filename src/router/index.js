@@ -23,6 +23,7 @@ import tadsEstagio from '../views/tads/TadsEstagioView.vue'
 import tadsOrientacao from '../views/tads/TadsOrientacaoView.vue'
 import icBolsistaNew from '../views/tads/IcBolsistaNewView.vue'
 import tadsFormativas from '../views/tads/TadsFormativasView.vue'
+import tadsTcc from '../views/tads/TadsTccView.vue'
 
 const routes = [
   // sept
@@ -127,6 +128,11 @@ const routes = [
     path: '/caf',
     name: 'tadsFormativas',
     component: tadsFormativas
+  },
+  {
+    path: '/tcc',
+    name: 'tadsTcc',
+    component: tadsTcc
   },
 ]
 
